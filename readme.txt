@@ -1,2 +1,6 @@
-Git is a version control system.
-Git is free software.
+初始化一个Git仓库，使用git init命令。
+添加文件到Git仓库，分两步：
+1.使用命令git add 文件名，注意，可反复多次使用，添加多个文件；
+2.使用命令git commit -m“对文件修改的解释”，完成。
+git status命令可以让我们时刻掌握仓库当前的状态
+用git diff这个命令看看具体修改了什么内容
